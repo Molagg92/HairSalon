@@ -5,7 +5,7 @@ using HairSalon.Models;
 
 namespace HairSalon.Controllers
 {
-    public class HairSalon : Controller
+    public class Stylist : Controller
     {
     }
 }
