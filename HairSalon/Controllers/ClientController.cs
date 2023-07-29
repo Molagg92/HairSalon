@@ -1,11 +1,13 @@
-using System.Collections.Generic;
-using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
 using HairSalon.Models;
+using System.Collections.Generic;
+using System.Linq;
+
 
 namespace HairSalon.Controllers
 {
-    public class Client : Controller
+    public class ClientController : Controller
     {
     }
 }
