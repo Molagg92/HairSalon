@@ -1,21 +1,23 @@
 # _HairSalon.Solution_
 
-#### _Application to "insert generic description here"_
+#### _Application for Keeping track of Stylist in your Hair Salon_
 
-#### By **YOUR NAME HERE**
+![Alt text](image.png)
+
+#### By **Erik Z./ molagg 92**
 
 ## Technologies Used
 
 * _C#_
 * _.NET v6.0_
-* _MSTest.TestAdapter v2.2.10_
-* _MSTest.TestFramework v2.2.10_
+* _RazorSyntax_
+* _MySql_
 * _Git_
 * _VSCode_
 
 ## Description
 
-_This application uses MVC structure, RESTFul routing convention, and HTTP methods to track user inputted information blah blah blah blah you better change this_
+_ This is a handy little application that uses one to many relationship between Stylists and Clients. This app can riliably track how many Stylists you have working for you, and the clients taht are assignes to each stylist_
 
 ## Setup/Installation Requirements
 
@@ -26,12 +28,10 @@ _This application uses MVC structure, RESTFul routing convention, and HTTP metho
 * _Then type ***dotnet build*** in your terminal to make sure everything is up to date and there are no errors_
 * _Then launch the webpage by typing ***dotnet watch run --launch-profile "production"*** in the teminal_
 * _For issuing and trusting a security certificate, type ***dotnet dev-certs https --trust*** in the terminal and restart your browser_
-* _If you would like to run the tests, type ***dotnet restore*** in the terminal to restore the dependencies that are listed in the .csproj file_
-* _Run the tests by moving into the HairSalon.Tests folder and typing ***dotnet test*** in the terminal to run tests_
 
 ## Known Bugs
 
-* _No known bugs as of 00/00/23_
+* _Currently, when you go in tro Client details and try to edit a clients details, after saving the changes instead of updateing the same client this app just adds the changes as a new client. It is recomended that you delete the old imput of a client after you make a change to their account. as of 07/29/23_
 
 ## License
 
@@ -57,4 +57,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: YOUR EMAIL HERE.  Contributions to the code are highly encouraged._
+_If you run into any issues or have questions, ideas or concerns, please reach out to me via email: molagg92@gmail.com.  Contributions to the code are highly encouraged._
