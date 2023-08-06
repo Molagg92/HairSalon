@@ -19,8 +19,19 @@
 
 _ This is a handy little application that uses one to many relationship between Stylists and Clients. This app can riliably track how many Stylists you have working for you, and the clients taht are assignes to each stylist_
 
-## Setup/Installation Requirements
+## Database SetUp
 
+* _Install MySQL, remember your username and pasword_
+* _Add appsettings.json inside main project folder. contains the Following: 
+{
+    "ConnectionStrings": {
+        "DefaultConnection": "Server=localhost;Port=3306;database={DATABASENAME};uid={USERNAME};pwd={PASSWORD};"
+    }
+}_
+* _$dotnet build (to build your project), $ dotnet ef migrations add Initial (to snapshot your model for he database), $ dotnet ef database update (to finish setting up your database)_
+
+
+## Project SetUp
 * _Clone "HairSalon.Solution“ from the repository to your desktop_
 * _Navigate to "HairSalon.Solution" directory via your local terminal command line_
 * _Navigate to the production directory "HairSalon"_
@@ -37,7 +48,7 @@ _ This is a handy little application that uses one to many relationship between 
 
 MIT License
 
-Copyright (c) [2023] [Your Name Here]
+Copyright (c) [2023] [Erik Z.]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
